@@ -1,0 +1,7 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My Portfolio"
+theme = "ananke"
+[build]
+command = "npm run build && npm run export"
+publish = "out"
